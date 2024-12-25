@@ -1,3 +1,6 @@
+# Force Rebuild - 2024/12/25
+FROM n8nio/n8n:latest
+
 # Rebuild Trigger
 FROM n8nio/n8n:latest
 
