@@ -1,8 +1,5 @@
-# 使用 node 基礎映像
-FROM node:20
-
-# 安裝 n8n
-RUN npm install -g n8n
+# 使用 n8n 官方映像
+FROM n8nio/n8n:latest
 
 # 設定工作目錄
 WORKDIR /data
