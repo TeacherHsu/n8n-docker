@@ -6,5 +6,5 @@ WORKDIR /data
 # 暴露端口
 EXPOSE 5678
 
-# 改為 bash，保持容器開啟以便檢查
-CMD ["bash"]
+# 改為 sh，避免 bash not found 問題
+CMD ["sh"]
