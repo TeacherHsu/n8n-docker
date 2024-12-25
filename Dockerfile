@@ -1,4 +1,4 @@
-# 使用 n8n 官方映像
+# Rebuild Trigger
 FROM n8nio/n8n:latest
 
 # 設定工作目錄
